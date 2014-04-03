@@ -1,0 +1,29 @@
+{
+  "name": "component-boilerplate-koa",
+  "description": "Boilerplate for Component and Koa",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
+  },
+  "license": "MIT",
+  "repository": "component/boilerplate-koa",
+  "dependencies": {
+    "koa": "*",
+    "koa-compress": "^1.0.0",
+    "koa-logger": "^1.0.0",
+    "koa-static": "^1.0.0"
+  },
+  "devDependencies": {
+    "component-koa": "^1.0.0",
+    "mocha": "^1.0.0",
+    "supertest": "*"
+  },
+  "main": "server",
+  "scripts": {
+    "start": "node --harmony-generators server/serve",
+    "test": "NODE_ENV=test mocha --harmony-generators --reporter spec server/test/*.js"
+  }
+}

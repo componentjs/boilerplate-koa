@@ -1,0 +1,6 @@
+{
+  "name": "app",
+  "private": true,
+  "paths": ["client"],
+  "locals": ["boot"]
+}
