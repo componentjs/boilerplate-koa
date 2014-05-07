@@ -1,7 +1,7 @@
 {
   "name": "component-boilerplate-koa",
   "description": "Boilerplate for Component and Koa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Jonathan Ong",
     "email": "me@jongleberry.com",
